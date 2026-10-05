@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "carola",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["-c", "cd / && exec python3 -m http.server 4331 --bind 127.0.0.1 --directory '/Users/carmenmontt/Library/CloudStorage/Dropbox/ process trabajo/Carola Page/sitio web/web'"],
+      "port": 4331
+    }
+  ]
+}

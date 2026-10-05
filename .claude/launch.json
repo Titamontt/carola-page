@@ -1,0 +1,14 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "carola",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": [
+        "-c",
+        "cd / && exec python3 -m http.server 4330 --bind 127.0.0.1 --directory /Users/carmenmontt/Desktop/carola"
+      ],
+      "port": 4330
+    }
+  ]
+}
